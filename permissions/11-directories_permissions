@@ -1,4 +1,2 @@
 #!/bin/bash
-# Add execute (x) to owner, group, others for all subdirectories (not regular files)
-find . -type d -mindepth 1 -exec chmod a+x {} +
-'EOF'
+chmod -R a+X
